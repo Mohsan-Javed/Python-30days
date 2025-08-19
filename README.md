@@ -12,3 +12,6 @@ Day 4 - Total Cost Displayer and Number Guessing Game (Format specifiers and "ra
 Day 5 - Password Login (Practiced while loop)
 <br>
 Day 6 - Calculator (practiced more while loop and match case statements)
+<br>
+Day 7 - Greetings Program ("Time" module and practiced if - elif - else statements)
+<br>
