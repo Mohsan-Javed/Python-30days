@@ -15,3 +15,4 @@ Day 6 - Calculator (practiced more while loop and match case statements)
 <br>
 Day 7 - Greetings Program ("Time" module and practiced if - elif - else statements)
 <br>
+Day 8 - Improved the Greetings Program ("pyttsx3" Module)

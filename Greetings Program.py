@@ -1,15 +1,9 @@
 import time
+import pyttsx3
+
+engine = pyttsx3.init()
 
 tim = time.strftime('%H : %M : %S')
-
-if '00 : 00 : 00' < tim < '12 : 00 : 00':
-    print ("Good Morning Sir!")
-
-elif '12 : 00 : 00' < tim < '18 : 00 : 00':
-    print ("Good Afternoon Sir!")
-
-elif '18 : 00 : 00' < tim < '24 : 00 : 00':
-    print ("Good Night Sir!")
 
 timezone = "AM"
 
@@ -19,4 +13,14 @@ if '00 : 00 : 00' < tim < '12 : 00 : 00':
 elif '12 : 00 : 00' < tim < '24 : 00 : 00':
     timezone = "PM"
 
-print (f"Currently, The time is {tim} {timezone}")
+if '00 : 00 : 00' < tim < '12 : 00 : 00':
+    engine.say(f"Good Morning Sir! Currently, The time is {tim} {timezone}")
+    engine.runAndWait()
+
+elif '12 : 00 : 00' < tim < '18 : 00 : 00':
+    engine.say(f"Good Afternoon Sir! Currently, The time is {tim} {timezone}")
+    engine.runAndWait()
+
+elif '18 : 00 : 00' < tim < '24 : 00 : 00':
+    engine.say(f"Good Night Sir! Currently, The time is {tim} {timezone}")
+    engine.runAndWait()
