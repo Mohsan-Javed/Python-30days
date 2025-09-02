@@ -16,3 +16,5 @@ Day 6 - Calculator (practiced more while loop and match case statements)
 Day 7 - Greetings Program ("Time" module and practiced if - elif - else statements)
 <br>
 Day 8 - Improved the Greetings Program ("pyttsx3" Module)
+<br>
+Day 9 - Snake, Water, Gun game(a Little Project, Gonna Improvve it on Day 10)

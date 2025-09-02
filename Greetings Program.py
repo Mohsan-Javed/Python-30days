@@ -22,5 +22,5 @@ elif '12 : 00 : 00' < tim < '18 : 00 : 00':
     engine.runAndWait()
 
 elif '18 : 00 : 00' < tim < '24 : 00 : 00':
-    engine.say(f"Good Night Sir! Currently, The time is {tim} {timezone}")
+    engine.say(f"Good Evening Sir! Currently, The time is {tim} {timezone}")
     engine.runAndWait()
