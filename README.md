@@ -18,3 +18,6 @@ Day 7 - Greetings Program ("Time" module and practiced if - elif - else statemen
 Day 8 - Improved the Greetings Program ("pyttsx3" Module)
 <br>
 Day 9 - Snake, Water, Gun game(a Little Project, Gonna Improvve it on Day 10)
+<br>
+Day 10 - (Improved the Game Project)
+<br>
